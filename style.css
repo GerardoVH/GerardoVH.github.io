@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=EB+Garamond:ital@1&display=swap');
+
+:root {
+    --main-color: #24262F;
+    --accent-color: #feb57f;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+}
+
+h1 {
+    font-family: 'Cutive', serif;
+}
+
+svg {
+    fill: var(--accent-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.circular-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+}
